@@ -1,0 +1,1 @@
+This project was completed in the Spring 2017 semester. It is a WPF application created in XML which caters to doctors. Here they can create patients and add appointments with personal info instead of keeping paper copies. This project was done with the Help of Eric M and Carlos N. 
