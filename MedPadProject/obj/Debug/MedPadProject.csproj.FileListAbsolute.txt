@@ -1,0 +1,46 @@
+c:\users\juan\documents\visual studio 2015\Projects\MedPadProject\MedPadProject\bin\Debug\MedPadProject.exe.config
+c:\users\juan\documents\visual studio 2015\Projects\MedPadProject\MedPadProject\bin\Debug\MedPadProject.exe
+c:\users\juan\documents\visual studio 2015\Projects\MedPadProject\MedPadProject\bin\Debug\MedPadProject.pdb
+c:\users\juan\documents\visual studio 2015\Projects\MedPadProject\MedPadProject\obj\Debug\MainWindow.g.cs
+c:\users\juan\documents\visual studio 2015\Projects\MedPadProject\MedPadProject\obj\Debug\App.g.cs
+c:\users\juan\documents\visual studio 2015\Projects\MedPadProject\MedPadProject\obj\Debug\MedPadProject_MarkupCompile.cache
+c:\users\juan\documents\visual studio 2015\Projects\MedPadProject\MedPadProject\obj\Debug\MedPadProject_MarkupCompile.lref
+c:\users\juan\documents\visual studio 2015\Projects\MedPadProject\MedPadProject\obj\Debug\MainWindow.baml
+c:\users\juan\documents\visual studio 2015\Projects\MedPadProject\MedPadProject\obj\Debug\MedPadProject.g.resources
+c:\users\juan\documents\visual studio 2015\Projects\MedPadProject\MedPadProject\obj\Debug\MedPadProject.Properties.Resources.resources
+c:\users\juan\documents\visual studio 2015\Projects\MedPadProject\MedPadProject\obj\Debug\MedPadProject.csproj.GenerateResource.Cache
+c:\users\juan\documents\visual studio 2015\Projects\MedPadProject\MedPadProject\obj\Debug\MedPadProject.exe
+c:\users\juan\documents\visual studio 2015\Projects\MedPadProject\MedPadProject\obj\Debug\MedPadProject.pdb
+c:\users\juan\documents\visual studio 2015\Projects\MedPadProject\MedPadProject\obj\Debug\Doctor.g.cs
+c:\users\juan\documents\visual studio 2015\Projects\MedPadProject\MedPadProject\obj\Debug\Staff.g.cs
+c:\users\juan\documents\visual studio 2015\Projects\MedPadProject\MedPadProject\obj\Debug\Doctor.baml
+c:\users\juan\documents\visual studio 2015\Projects\MedPadProject\MedPadProject\obj\Debug\Staff.baml
+C:\Users\Juan\documents\visual studio 2015\Projects\MedPadProject\MedPadProject\obj\Debug\MedPadProject.csprojResolveAssemblyReference.cache
+C:\Users\Juan\documents\visual studio 2015\Projects\MedPadProject\MedPadProject\obj\Debug\PatientInfo.g.cs
+C:\Users\Juan\documents\visual studio 2015\Projects\MedPadProject\MedPadProject\obj\Debug\PatientInfo.baml
+C:\Users\Juan\documents\visual studio 2015\Projects\MedPadProject\MedPadProject\obj\Debug\PatientInfoStaff.g.cs
+C:\Users\Juan\documents\visual studio 2015\Projects\MedPadProject\MedPadProject\obj\Debug\PatientInfoStaff.baml
+D:\MedPadProject\MedPadProject\bin\Debug\MedPadProject.exe.config
+D:\MedPadProject\MedPadProject\obj\Debug\MedPadProject.exe
+D:\MedPadProject\MedPadProject\obj\Debug\MedPadProject.pdb
+D:\MedPadProject\MedPadProject\bin\Debug\MedPadProject.exe
+D:\MedPadProject\MedPadProject\bin\Debug\MedPadProject.pdb
+D:\MedPadProject\MedPadProject\obj\Debug\MedPadProject.csprojResolveAssemblyReference.cache
+D:\MedPadProject\MedPadProject\obj\Debug\Doctor.g.cs
+D:\MedPadProject\MedPadProject\obj\Debug\MainWindow.g.cs
+D:\MedPadProject\MedPadProject\obj\Debug\PatientInfo.g.cs
+D:\MedPadProject\MedPadProject\obj\Debug\PatientInfoStaff.g.cs
+D:\MedPadProject\MedPadProject\obj\Debug\Staff.g.cs
+D:\MedPadProject\MedPadProject\obj\Debug\App.g.cs
+D:\MedPadProject\MedPadProject\obj\Debug\MedPadProject_MarkupCompile.cache
+D:\MedPadProject\MedPadProject\obj\Debug\MedPadProject_MarkupCompile.lref
+D:\MedPadProject\MedPadProject\obj\Debug\Doctor.baml
+D:\MedPadProject\MedPadProject\obj\Debug\MainWindow.baml
+D:\MedPadProject\MedPadProject\obj\Debug\PatientInfo.baml
+D:\MedPadProject\MedPadProject\obj\Debug\PatientInfoStaff.baml
+D:\MedPadProject\MedPadProject\obj\Debug\Staff.baml
+D:\MedPadProject\MedPadProject\obj\Debug\MedPadProject.g.resources
+D:\MedPadProject\MedPadProject\obj\Debug\MedPadProject.Properties.Resources.resources
+D:\MedPadProject\MedPadProject\obj\Debug\MedPadProject.csproj.GenerateResource.Cache
+D:\MedPadProject\MedPadProject\obj\Debug\adminPage.g.cs
+D:\MedPadProject\MedPadProject\obj\Debug\adminPage.baml

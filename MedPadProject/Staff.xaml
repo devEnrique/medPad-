@@ -1,0 +1,112 @@
+﻿<UserControl x:Class="MedPadProject.Staff"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MedPadProject"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="500">
+    <Grid x:Name="grid4" >
+        <TabControl Margin="-10,0,10,0">
+            <TabItem Header="Medical Staff Page">
+                <StackPanel>
+
+                    <TextBlock></TextBlock>
+                    <TextBlock Margin="10,0,-0.4,0">Please Select Doctor:</TextBlock>
+                    <ComboBox x:Name="comboBoxDoctors" Margin="10,0,9.6,0" Width="200" HorizontalAlignment="Left" >
+                        <ComboBoxItem>Dr.Scholls</ComboBoxItem>
+                    </ComboBox>
+                    <TextBlock></TextBlock>
+                    <Button x:Name="buttonCBD" Margin="10,0,9.6,0" Click="buttonCBD_Click" Width="200" HorizontalAlignment="Left">Select</Button>
+                    <TextBlock></TextBlock>
+
+                    <ListView x:Name ="listViewDPL"  Height="120" Margin="10,0,10,0">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="Patients List" DisplayMemberBinding="{Binding Name}" />
+                                <!-- DisplayMemberBinding="{Binding fName}"/> -->
+                                <GridViewColumn Header="Patients Address"  DisplayMemberBinding="{Binding address}"/>
+                                <!--Patients that belong to selected value in DDL-->
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <TextBlock></TextBlock>
+
+                    <Button x:Name="buttonView" Margin="10,0,9.6,0" Width="200" HorizontalAlignment="Left" Click="buttonView_Click_1">View</Button>
+                    <TextBlock></TextBlock>
+                    <Button x:Name="buttonRemove" Margin="10,0,9.6,0" Width="200" HorizontalAlignment="Left">Remove</Button>
+
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Add Patient">
+                <StackPanel Orientation="Vertical">
+                    <TextBlock></TextBlock>
+                    <Label>Please Enter The Following Information:</Label>
+                    <TextBlock></TextBlock>
+                    <Label Margin="0,0,-0.4,0">First Name:</Label>
+                    <TextBox x:Name="pFNametxt" Margin="10,0,9.6,0" Width="200" HorizontalAlignment="Left"></TextBox>
+                    <Label>Last Name:</Label>
+                    <TextBox x:Name="pLNametxt" Margin="10,0,9.6,0" Width="200" HorizontalAlignment="Left"></TextBox>
+                    <Label>Address:</Label>
+                    <TextBox x:Name="pAddresstxt" Margin="10,0,9.6,0" Width="200" HorizontalAlignment="Left"></TextBox>
+                    <Label>Phone:</Label>
+                    <TextBox x:Name="pPhonetxt" Margin="10,0,9.6,0" Width="200" HorizontalAlignment="Left"></TextBox>
+                    <Label>Email:</Label>
+                    <TextBox x:Name="pEmail" Margin="10,0,9.6,0" Width="200" HorizontalAlignment="Left"></TextBox>
+                    <Label>Date of Birth:</Label>
+                    <TextBox x:Name="pDOB" Margin="10,0,9.6,0" Width="200" HorizontalAlignment="Left"></TextBox>
+                    <Label>Medical History:</Label>
+                    <ComboBox x:Name="medHistoryCB" Margin="10,0,9.6,0" Width="200" HorizontalAlignment="Left">
+                        <ComboBoxItem>Anxiety</ComboBoxItem>
+                        <ComboBoxItem>Abuse</ComboBoxItem>
+                        <ComboBoxItem>Depression</ComboBoxItem>
+                        <ComboBoxItem>PostTraumaticStressDisorder(PTSD)</ComboBoxItem>
+                    </ComboBox>
+                    <Label>Assign A Physician:</Label>
+                    <ComboBox x:Name="selectDocCB" Margin="10,0,0,0" Width="200" HorizontalAlignment="Left">
+                        <!--This CB Must be autopopulated from Doctor Data XML doc dynamically whe
+                        page loads at the beginning-->
+                    </ComboBox>
+                    <TextBlock></TextBlock>
+                    <Button x:Name="addPatientButton" Margin="10,0,9.6,0" Click="addPatientButton_Click" Width="200" HorizontalAlignment="Left">Add Patient</Button>
+
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Set up appointment">
+                <StackPanel>
+                    <TextBlock HorizontalAlignment="Center">Select Doctor</TextBlock>
+                    <ComboBox HorizontalAlignment="Center" x:Name="docList" Margin="10,0,0,0" Width="200"  SelectionChanged="docList_SelectionChanged">
+
+                    </ComboBox>
+                    <TextBlock HorizontalAlignment="Center">Select Patient</TextBlock>
+                    <ComboBox HorizontalAlignment="Center" x:Name="patList" Margin="10,0,0,0" Width="200" >
+
+                    </ComboBox>
+                    <TextBlock></TextBlock>
+                    
+                    <Calendar   VerticalAlignment="Center" x:Name="appointCalendar" Height="178" SelectionMode="SingleDate" IsTodayHighlighted="False"/>
+                    <TextBlock HorizontalAlignment="Center">Select Time:</TextBlock>
+                    <ComboBox HorizontalAlignment="Center" x:Name="cmbTime" Margin="10,0,0,0"  Width="200">
+                        <ComboBoxItem>8:00AM</ComboBoxItem>
+                        <ComboBoxItem>9:30AM</ComboBoxItem>
+                        <ComboBoxItem>11:00AM</ComboBoxItem>
+                        <ComboBoxItem>12:30PM</ComboBoxItem>
+                        <ComboBoxItem>2:00PM</ComboBoxItem>
+                        <ComboBoxItem>3:30PM</ComboBoxItem>
+                        <ComboBoxItem>5:00PM</ComboBoxItem>
+                    </ComboBox>
+                    <TextBlock></TextBlock>
+                    <TextBlock></TextBlock>
+                    
+                    <Button VerticalAlignment="Center" x:Name="btnAppointment" Margin="168,0,159.6,0" RenderTransformOrigin="0.5,0.5" Click="btnAppointment_Click">Set Appointment
+                    </Button>
+                    
+
+
+                </StackPanel>
+
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</UserControl>

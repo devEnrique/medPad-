@@ -1,0 +1,132 @@
+﻿<Window x:Class="MedPadProject.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MedPadProject"
+        mc:Ignorable="d"
+        Title="MedPad+" Height="650" Width="950">
+    <Grid x:Name="grid1" Background="DarkBlue">
+        <UserControl Margin="40,100,40,10" Background="LightGray">
+            <Grid x:Name="grid2" Margin="30,33,30,30">
+                <TabControl>
+                    <TabItem Header="Doctor" Height="22" VerticalAlignment="Top" ToolTip="Select Correct Tab">
+                        <TabControl TabStripPlacement="Bottom">
+                            <TabItem Header="Login">
+                                <StackPanel>
+                                    <TextBlock/>
+                                    <TextBlock>User Name:</TextBlock>
+                                    <TextBox x:Name="txtDotorLoginUserName" Width="200" HorizontalAlignment="Left"></TextBox>
+                                    <TextBlock/>
+                                    <TextBlock>Password:</TextBlock>
+                                    <PasswordBox x:Name="txtDoctorLoginPassword" Width="200" HorizontalAlignment="Left"></PasswordBox>
+                                    <TextBlock/>
+                                    <Button x:Name="btnDoctorEnter" Width="50" HorizontalAlignment="Left" Click="btnDoctorEnter_Click">Enter</Button>
+                                </StackPanel>
+
+                            </TabItem>
+                            <TabItem Header="Register" ToolTip="Click Tab Here To Register">
+                                <StackPanel>
+                                    <TextBlock/>
+                                    <TextBlock>First Name:</TextBlock>
+                                    <TextBox x:Name="txtBoxDoctorFisrtName" Width="200" HorizontalAlignment="Left"></TextBox>
+                                    <TextBlock/>
+                                    <TextBlock>Last Name:</TextBlock>
+                                    <TextBox x:Name="txtBoxDoctorLastName" Width="200" HorizontalAlignment="Left"></TextBox>
+                                    <TextBlock/>
+                                    <TextBlock>Email:</TextBlock>
+                                    <TextBox x:Name="txtDoctorEmail" Width="200" HorizontalAlignment="Left"></TextBox>
+                                    <TextBlock/>
+                                    <TextBlock>Phone Number:</TextBlock>
+                                    <TextBox x:Name="txtBoxDoctorPhoneNumber" Width="200" HorizontalAlignment="Left"></TextBox>
+                                    <TextBlock/>
+                                    <TextBlock>Create Username:</TextBlock>
+                                    <TextBox x:Name="txtBoxDoctorUsername" Width="200" HorizontalAlignment="Left"></TextBox>
+                                    <TextBlock/>
+                                    <TextBlock>Craete Password:</TextBlock>
+                                    <PasswordBox x:Name="txtBoxDoctorPassword" Width="200" HorizontalAlignment="Left"></PasswordBox>
+                                    <TextBlock></TextBlock>
+                                    <TextBlock>Confirm Password</TextBlock>
+                                    <PasswordBox x:Name="txtBoxDoctorConfirmPassword" Width="200" HorizontalAlignment="Left"></PasswordBox>
+                                    <TextBlock/>
+                                    <Button x:Name="btnDoctorRegister" Width="50" HorizontalAlignment="Left" Click="btnDoctorRegister_Click">Register</Button>
+                                </StackPanel>
+                                
+                            </TabItem>
+                        </TabControl>
+
+                    </TabItem>
+                    <TabItem Header="Staff" ToolTip="Select Correct Tab">
+                        <TabControl TabStripPlacement="Bottom">
+                            <TabItem Header="login">
+                                <StackPanel>
+                                    <TextBlock/>
+                                    <TextBlock>User Name:</TextBlock>
+                                    <TextBox x:Name="txtStaffLoginUserName" Width="200" HorizontalAlignment="Left"></TextBox>
+                                    <TextBlock/>
+                                    <TextBlock>Password:</TextBlock>
+                                    <PasswordBox x:Name="txtStaffLoginPassword" Width="200" HorizontalAlignment="Left"></PasswordBox>
+                                    <TextBlock/>
+                                    <Button x:Name="btnStaffEnter" Width="50" HorizontalAlignment="Left" Click="btnStaffEnter_Click">Enter</Button>
+                                </StackPanel>
+
+                            </TabItem>
+                            <TabItem Header="Register">
+                                <StackPanel>
+                                    <TextBlock/>
+                                    <TextBlock>First Name:</TextBlock>
+                                    <TextBox x:Name="txtBoxStaffFisrtName" Width="200" HorizontalAlignment="Left"></TextBox>
+                                    <TextBlock/>
+                                    <TextBlock>Last Name:</TextBlock>
+                                    <TextBox x:Name="txtBoxStaffLastName" Width="200" HorizontalAlignment="Left"></TextBox>
+                                    <TextBlock/>
+                                    <TextBlock>Email:</TextBlock>
+                                    <TextBox x:Name="txtBoxStaffEmail" Width="200" HorizontalAlignment="Left"></TextBox>
+                                    <TextBlock/>
+                                    <TextBlock>Phone Number:</TextBlock>
+                                    <TextBox x:Name="txtBoxStaffPhoneNumber" Width="200" HorizontalAlignment="Left"></TextBox>
+                                    <TextBlock/>
+                                    <TextBlock>Create Username:</TextBlock>
+                                    <TextBox x:Name="txtBoxStaffUsername" Width="200" HorizontalAlignment="Left"></TextBox>
+                                    <TextBlock/>
+                                    <TextBlock>Craete Password:</TextBlock>
+                                    <PasswordBox x:Name="txtBoxStaffPassword" Width="200" HorizontalAlignment="Left"></PasswordBox>
+                                    <TextBlock></TextBlock>
+                                    <TextBlock>Confirm Password</TextBlock>
+                                    <PasswordBox x:Name="txtBoxStaffConfirmPassword" Width="200" HorizontalAlignment="Left"></PasswordBox>
+                                    <TextBlock/>
+                                    <Button x:Name="btnStaffRegister" Width="50" HorizontalAlignment="Left" Click="btnStaffRegister_Click">Register</Button>
+                                </StackPanel>
+
+                            </TabItem>
+                        </TabControl>
+                       
+                    </TabItem>
+                    <TabItem Header="Admin">
+                        <StackPanel>
+                            <TextBlock/>
+                            <TextBlock>User Name:</TextBlock>
+                            <TextBox x:Name="txtAdminName" Width="200" HorizontalAlignment="Left"></TextBox>
+                            <TextBlock/>
+                            <TextBlock>Password:</TextBlock>
+                            <PasswordBox x:Name="txtAdminPassword" Width="200" HorizontalAlignment="Left"></PasswordBox>
+                            <TextBlock/>
+                            <Button x:Name="btnLogInAdmin" Width="50" HorizontalAlignment="Left" Click="btnLogInAdmin_Click" >Enter</Button>
+                        </StackPanel>
+
+
+                    </TabItem>
+                    
+                </TabControl> 
+                
+            </Grid>
+        </UserControl>
+        <Menu Height="50" Margin="40, 70, 40,0" VerticalAlignment="Top">
+            <MenuItem x:Name="menuItemHome" Header="Log Off" Click="menuItemHome_Click" />
+        </Menu>
+      
+
+       <!--<Button x:Name="btnEnter" Width="50" Height="30" Click="btnEnter_Click"></Button>-->
+
+    </Grid>
+</Window>

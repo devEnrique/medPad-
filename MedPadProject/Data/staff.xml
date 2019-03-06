@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Staff>
+  <Employee name="joel nieves">
+    <Username>jnieves</Username>
+    <Password>12345</Password>
+    <Email>test@gmail.com</Email>
+    <PhoneNumber>8471236745</PhoneNumber>
+    <ConfirmPasssword>12345</ConfirmPasssword>
+  </Employee>
+  <Employee name="Donald Trump">
+    <Username>wrongwrong</Username>
+    <Password>123456</Password>
+    <Email>trumprocks@usa.gov</Email>
+    <PhoneNumber>7731234568</PhoneNumber>
+    <ConfirmPasssword>123456</ConfirmPasssword>
+  </Employee>
+  <Employee name="Jamesy James">
+    <Username>jjames</Username>
+    <Password>jjames</Password>
+    <Email>jjames@gmail.com</Email>
+    <PhoneNumber>9032791193</PhoneNumber>
+    <ConfirmPasssword>jjames</ConfirmPasssword>
+  </Employee>
+</Staff>

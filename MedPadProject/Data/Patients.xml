@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patients>
+  <Patient name="Enrique Paredes">
+    <Name>Enrique Paredes</Name>
+    <Address>4252 W. Henderson</Address>
+    <Phone>7739882343</Phone>
+    <Email>ep@yahoo.com</Email>
+    <DOB>03/04/1994</DOB>
+    <MedicalHistory>Stress</MedicalHistory>
+    <DoctorName>Carlos Nava</DoctorName>
+    <AppointmentDate>May 24, 2017 3:30PM</AppointmentDate>
+  </Patient>
+  <Patient Name="Barack Obama">
+    <Name>Barack Obama</Name>
+    <Address>5600 N. St. Louis</Address>
+    <Phone>7734568090</Phone>
+    <Email>obama@gmail.com</Email>
+    <DOB>03/04/1962</DOB>
+    <MedicalHistory>Anxiety</MedicalHistory>
+    <DoctorName>Bryan Walls</DoctorName>
+    <AppointmentDate>May 24, 2017 3:30PM</AppointmentDate>
+  </Patient>
+  <Patient Name="Hillary Crooked">
+    <Name>Hillary Crooked</Name>
+    <Address>5600 N. St. Louis</Address>
+    <Phone>7734568090</Phone>
+    <Email>obama@gmail.com</Email>
+    <DOB>03/04/1956</DOB>
+    <MedicalHistory>Depression</MedicalHistory>
+    <DoctorName>Carlos Nava</DoctorName>
+    <AppointmentDate>May 29, 2017 3:30PM</AppointmentDate>
+  </Patient>
+</Patients>

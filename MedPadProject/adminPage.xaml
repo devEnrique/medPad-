@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="MedPadProject.adminPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:MedPadProject"
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="500">
+    <Grid x:Name="adminGrid" >
+        <StackPanel>
+            <TextBlock FontSize="28">Hello Admin</TextBlock>
+            <TextBlock HorizontalAlignment="Center" FontWeight="Bold">Doctors</TextBlock>
+            <ListView Width="700" HorizontalAlignment="Center" Name="lstOfDocs"></ListView>
+            <Button Width="100" x:Name="btnDeleteDoctor" Click="btnDeleteDoctor_Click" >Delete</Button>
+            <TextBlock></TextBlock>
+            <TextBlock></TextBlock>
+            <TextBlock></TextBlock>
+
+            <TextBlock HorizontalAlignment="Center" FontWeight="Bold">Patients</TextBlock>
+            <ListView Width="700" HorizontalAlignment="Center" Name="lstOfPats"></ListView>
+            <Button Width="100" x:Name="btnDeletePatient" Click="btnDeletePatient_Click" >Delete</Button>
+            <TextBlock></TextBlock>
+            <TextBlock></TextBlock>
+            <TextBlock></TextBlock>
+            <TextBlock HorizontalAlignment="Center" FontWeight="Bold">Staff</TextBlock>
+            <ListView Width="700" HorizontalAlignment="Center" Name="lstOfStaff"></ListView>
+            <Button Width="100" x:Name="btnDeleteStaff" Click="btnDeleteStaff_Click" Content="Delete"/>
+        </StackPanel>
+            
+    </Grid>
+</UserControl>

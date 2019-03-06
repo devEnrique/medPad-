@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Doctors>
+  <Doctor name="bryan walls">
+    <Name>Bryan Walls</Name>
+    <Username>bad1245</Username>
+    <Password>thisisbad1</Password>
+    <Email>bryan_bad@yahoo.com </Email>
+    <PhoneNumber>7732830171</PhoneNumber>
+    <ConfirmPasssword>thisisbad1</ConfirmPasssword>
+  </Doctor>
+  <Doctor name="Carlos Nava">
+    <Name>Carlos Nava</Name>
+    <Username>nava</Username>
+    <Password>123456</Password>
+    <Email>navaisgreat@google.com</Email>
+    <PhoneNumber>7738526958</PhoneNumber>
+    <ConfirmPasssword>123456</ConfirmPasssword>
+  </Doctor>
+  <Doctor name="Post Malone">
+    <Name>Post Malone</Name>
+    <Username>postMalone</Username>
+    <Password>postMalone</Password>
+    <Email>pMalone@gmail.com</Email>
+    <PhoneNumber>9032791193</PhoneNumber>
+    <ConfirmPasssword>postMalone</ConfirmPasssword>
+  </Doctor>
+</Doctors>
